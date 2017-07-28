@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Thymely</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_search">Search</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_user">User</string>
+</resources>

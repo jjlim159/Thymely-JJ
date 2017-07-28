@@ -1,0 +1,233 @@
+{
+  "RestaurantDetailsList": {
+    "restaurant1": {
+      "id": 1,
+      "name": "Gong Cha",
+      "category": "Bubble Tea",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant2": {
+      "id": 2,
+      "name": "KOI Cafe",
+      "category": "Bubble Tea",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant3": {
+      "id": 3,
+      "name": "Pastamania",
+      "category": "Western",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant4": {
+      "id": 4,
+      "name": "Astons",
+      "category": "Western",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant5": {
+      "id": 5,
+      "name": "KOI Cafe",
+      "category": "Bubble Tea",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant6": {
+      "id": 6,
+      "name": "Din Tai Fung",
+      "category": "Chinese",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant7": {
+      "id": "7",
+      "name": "Astons",
+      "category": "Western",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant8": {
+      "id": 8,
+      "name": "Pastamania",
+      "category": "Western",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant9": {
+      "id": 9,
+      "name": "Gong Cha",
+      "category": "Bubble Tea",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    }
+  },
+  "CategoryList": ["Bubble Tea", "Western", "Chinese"],
+  "RestaurantMenuList": {
+    "menu1": {
+      "restaurant": "Gong Cha",
+      "menuCategory": ["Favourites", "Special"],
+      "menuItem": {
+        "favourites": {
+          "item1": {
+            "item": "Pearl Milk Tea",
+            "price": 3.5
+          },
+          "item2": {
+            "item": "Taro Milk Tea",
+            "price": 3.5
+          }
+        },
+        "special": {
+          "item2": {
+            "item": "Hazelnut Milk Tea",
+            "price": 4.0
+          }
+        },
+        "options": {
+          "size": [
+            {"size": "Medium", "price": 0}, {"size": "Large", "price": 0.5}
+          ],
+          "addons": ["Pearls", "Aloe Vera"]
+        }
+      }
+    },
+    "menu2": {
+      "restaurant": "KOI Cafe",
+      "menu": {
+        "favourites": ["Black Tea Macchiato", "Golden Bubble Milk Tea"],
+        "special": "Mango Macchiato"
+      }
+    },
+    "menu3": {
+      "restaurant": "Pastamania",
+      "menu": {
+        "pasta": ["Chicken Bolognese", "Aglio Olio", "Carbonara"],
+        "sideDish": ["Garden Salad", "Mushroom Soup", "Minestrone Soup"]
+      }
+    },
+    "menu4": {
+      "restaurant": "Astons",
+      "menu": {
+        "mains": ["Chargrill Chicken", "Pork Chop", "Ribeye Steak", "Lamb Chop"],
+        "sideDish": ["Baked Potato", "French Fries", "Pasta Salad"]
+      }
+    }
+  },
+  "OptionsPriceList": {
+    "option1": {
+      "restaurant": "Gong Cha",
+      "size": "Large",
+      "price": 0.50
+    },
+    "option2": {
+      "restaurant": "Gong Cha",
+      "addons": "Pearls",
+      "price": 0.50
+    },
+    "option3": {
+      "restaurant": "Gong Cha",
+      "addons": "Aloe Vera",
+      "price": 0.80
+    },
+    "option4": {
+      "restaurant": "KOI Cafe",
+      "size": "Large",
+      "price": 1.00
+    },
+    "option5": {
+      "restaurant": "KOI Cafe",
+      "addons": "Pearls",
+      "price": 0.50
+    },
+    "option6": {
+      "restaurant": "KOI Cafe",
+      "addons": "Golden Pearls",
+      "price": 0.80
+    }
+  },
+  "OrderRequestList": {
+    "order1": {
+      "accepted": false,
+      "id": 1,
+      "restaurant": "Gong Cha",
+      "location": "Singapore Polytechnic",
+      "pickup": "Dover Bus Stop 1",
+      "fee": 3
+    },
+    "order2": {
+      "accepted": false,
+      "id": 2,
+      "restaurant": "KOI Cafe",
+      "location": "Singapore Polytechnic",
+      "pickup": "Dover Stn",
+      "fee": 3
+    },
+    "order3": {
+      "accepted": false,
+      "id": 3,
+      "restaurant": "Astons",
+      "location": "Buona Vista Dr 1",
+      "pickup": "Buona Vista Stn",
+      "fee": 3
+    },
+    "order4": {
+      "accepted": false,
+      "id": 4,
+      "restaurant": "Din Tai Fung",
+      "location": "Buona Vista Dr 1",
+      "pickup": "Star Vista",
+      "fee": 3
+    },
+    "order5": {
+      "accepted": false,
+      "id": 5,
+      "restaurant": "Pastamania",
+      "location": "Clementi Ave 1",
+      "pickup": "Clementi Stn",
+      "fee": 3
+    },
+    "order6": {
+      "accepted": false,
+      "id": 6,
+      "restaurant": "Gong Cha",
+      "location": "Clementi Ave 1",
+      "pickup": "Clementi Bus Stop 1",
+      "fee": 3
+    }
+  },
+  "PickupLocation": {
+    "pickup1": {
+      "location": "Singapore Polytechnic",
+      "pickupStops": ["Dover Stn", "Dover Bus Stop 1", "SP Auditorium"]
+    },
+    "pickup2": {
+      "location": "Buona Vista Dr 1",
+      "pickupStops": ["Buona Vista Stn", "Buona Vista Bus Stop 1", "Star Vista"]
+    },
+    "pickup3": {
+      "location": "Clementi Ave 1",
+      "pickupStops": ["Clementi Stn", "Clementi Bus Stop 1", "Clementi Mall"]
+    }
+  }
+}

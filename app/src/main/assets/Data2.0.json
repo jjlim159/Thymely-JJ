@@ -1,0 +1,214 @@
+{
+  "RestaurantDetailsList": {
+    "restaurant1": {
+      "id": 1,
+      "name": "Gong Cha",
+      "category": "Bubble Tea",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant2": {
+      "id": 2,
+      "name": "KOI Cafe",
+      "category": "Bubble Tea",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant3": {
+      "id": 3,
+      "name": "Pastamania",
+      "category": "Western",
+      "location": "Singapore Polytechnic",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant4": {
+      "id": 4,
+      "name": "Astons",
+      "category": "Western",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant5": {
+      "id": 5,
+      "name": "KOI Cafe",
+      "category": "Bubble Tea",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant6": {
+      "id": 6,
+      "name": "Din Tai Fung",
+      "category": "Chinese",
+      "location": "Buona Vista Dr 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant7": {
+      "id": "7",
+      "name": "Astons",
+      "category": "Western",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    },
+    "restaurant8": {
+      "id": 8,
+      "name": "Pastamania",
+      "category": "Western",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "15-20 mins"
+    },
+    "restaurant9": {
+      "id": 9,
+      "name": "Gong Cha",
+      "category": "Bubble Tea",
+      "location": "Clementi Ave 1",
+      "openingHrs": "10:00am - 10:00pm",
+      "fee": 3,
+      "time": "20-30 mins"
+    }
+  },
+  "RestaurantList": {
+    "restaurant1": {
+      "name": "Gong Cha(SP)",
+      "location": "Singapore Polytechnic"
+    },
+    "restaurant2": {
+      "name": "KOI Cafe(SP)",
+      "location": "Singapore Polytechnic"
+    },
+    "restaurant3": {
+      "name": "Pastamania(SP)",
+      "location": "Singapore Polytechnic"
+    },
+    "restaurant4": {
+      "name": "Astons(Buona Vista)",
+      "location": "Buona Vista Dr 1"
+    },
+    "restaurant5": {
+      "name": "KOI Cafe(Buona Vista)",
+      "location": "Buona Vista Dr 1"
+    },
+    "restaurant6": {
+      "name": "Din Tai Fung(Buona Vista)",
+      "location": "Buona Vista Dr 1"
+    },
+    "restaurant7": {
+      "name": "Astons(Clementi)",
+      "location": "Clementi Ave 1"
+    },
+    "restaurant8": {
+      "name": "Pastamania(Clementi)",
+      "location": "Clementi Ave 1"
+    },
+    "restaurant9": {
+      "name": "Gong Cha(Clementi)",
+      "location": "Clementi Ave 1"
+    }
+  },
+  "CategoryList": {
+    "Category1": ["Bubble Tea"], "Category2": ["Western"], "Category3": ["Chinese"]
+  },
+  "RestaurantMenuList": {
+    "menu1": {
+      "restaurant": "Gong Cha",
+      "menu": {
+        "favourites": ["Taro Milk Tea", "Pearl Milk Tea"],
+        "special": "Hazelnut Milk Tea"
+      }
+    },
+    "menu2": {
+      "restaurant": "KOI Cafe",
+      "menu": {
+        "favourites": ["Black Tea Macchiato", "Golden Bubble Milk Tea"],
+        "special": "Mango Macchiato"
+      }
+    },
+    "menu4": {
+      "restaurant": "Pastamania",
+      "menu": {
+        "pasta": ["Chicken Bolognese", "Aglio Olio", "Carbonara"],
+        "sideDish": ["Garden Salad", "Mushroom Soup", "Minestrone Soup"]
+      }
+    },
+    "menu4": {
+      "restaurant": "Astons",
+      "menu": {
+        "mains": ["Chargrill Chicken", "Pork Chop", "Ribeye Steak", "Lamb Chop"],
+        "sideDish": ["Baked Potato", "French Fries", "Pasta Salad"]
+      }
+    }
+  },
+  "OrderRequestList": {
+    "order1": {
+      "id": 1,
+      "restaurant": "Gong Cha",
+      "location": "Singapore Polytechnic",
+      "pickup": "Dover Bus Stop 1",
+      "fee": 3
+    },
+    "order2": {
+      "id": 2,
+      "restaurant": "KOI Cafe",
+      "location": "Singapore Polytechnic",
+      "pickup": "Dover Stn",
+      "fee": 3
+    },
+    "order3": {
+      "id": 3,
+      "restaurant": "Astons",
+      "location": "Buona Vista Dr 1",
+      "pickup": "Buona Vista Stn",
+      "fee": 3
+    },
+    "order4": {
+      "id": 4,
+      "restaurant": "Din Tai Fung",
+      "location": "Buona Vista Dr 1",
+      "pickup": "Star Vista",
+      "fee": 3
+    },
+    "order5": {
+      "id": 5,
+      "restaurant": "Pastamania",
+      "location": "Clementi Ave 1",
+      "pickup": "Clementi Stn",
+      "fee": 3
+    },
+    "order6": {
+      "id": 6,
+      "restaurant": "Gong Cha",
+      "location": "Clementi Ave 1",
+      "pickup": "Clementi Bus Stop 1",
+      "fee": 3
+    }
+  },
+  "PickupLocation": {
+    "pickup1": {
+      "location": "Singapore Polytechnic",
+      "pickupStops": ["Dover Stn", "Dover Bus Stop 1", "SP Auditorium"]
+    },
+    "pickup2": {
+      "location": "Buona Vista Dr 1",
+      "pickupStops": ["Buona Vista Stn", "Buona Vista Bus Stop 1", "Star Vista"]
+    },
+    "pickup3": {
+      "location": "Clementi Ave 1",
+      "pickupStops": ["Clementi Stn", "Clementi Bus Stop 1", "Clementi Mall"]
+    }
+  }
+}
